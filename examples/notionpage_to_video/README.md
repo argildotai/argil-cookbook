@@ -13,8 +13,8 @@ This project automatically generates videos using the Argil AI API based on cont
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/notion-to-argil-video-generator.git
-   cd notion-to-argil-video-generator
+   git clone https://github.com/argildotai/argil-cookbook
+   cd argil-cookbook/examples/notion-to-argil-video-generator
    ```
 
 2. Install the required dependencies:
