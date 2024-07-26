@@ -1,0 +1,82 @@
+# General
+.DS_Store
+.env*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node.js dependencies
+node_modules/
+/api/node_modules/
+/front/node_modules/
+
+# Next.js and build directories
+.next/
+/out/
+/build/
+/api/out/
+/api/build/
+/front/.next/
+/front/out/
+/front/build/
+
+# Testing and coverage
+/coverage/
+/api/coverage/
+/front/coverage/
+
+# JetBrains IDEs specific directories
+.idea/
+/api/.idea/
+/front/.idea/
+
+# Sentry Auth Token
+.sentryclirc
+
+# Compiled files or directories
+/api/dist/
+/front/dist/
+
+# Cache files
+.pnp.js
+.nyc_output/
+/api/.pnp.js
+/front/.pnp.js
+
+# Ignore Gradle and Maven with auto-import in JetBrains
+# Uncomment if using auto-import.
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+
+# CMake build directory
+cmake-build-*/
+
+# Other files and directories specific to JetBrains IDEs, Android Studio, etc.
+*.iws
+.idea_modules/
+out/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/contentModel.xml
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+.idea/**/mongoSettings.xml
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+.idea/httpRequests
+
+dist/
